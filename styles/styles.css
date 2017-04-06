@@ -1,1 +1,23 @@
+/* - - - - - - - - - - GLOBAL STYLES - - - - - - - - - - */
+
+.wrapper {
+  width: 1440px;
+  max-width: 90%;      /* below 1440 px, will default to 90% width */
+  margin: 0 auto;
+}
+
+
+/*- - - - - - - - - - BANNER STYLES - - - - - - - - - - */
+
+#banner {
+  background-image: url(./images/banner.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  header {
+    padding: 2rem 0; 
+  }
+  #logo {
+    color: white;
+  }
+}
 
