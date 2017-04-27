@@ -7,6 +7,7 @@
   margin: 0 auto;
 }
 .button {
+  /* generic styles  */
   border: none;
   outline: none;
   border-radius: 2rem;
@@ -27,7 +28,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 #banner {
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/banner2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
