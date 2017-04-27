@@ -1,5 +1,8 @@
 /* - - - - - - - - - - VARIABLES - - - - - - - - - - */
 /* - - - - - - - - - - GLOBAL STYLES - - - - - - - - - - */
+body {
+  font-family: Helvetica, sans-serif;
+}
 .wrapper {
   width: 1440px;
   max-width: 90%;
@@ -27,9 +30,6 @@
   padding: .3rem 1.5rem;
 }
 /*- - - - - - - - - - BANNER STYLES - - - - - - - - - - */
-body {
-  font-family: Helvetica, sans-serif;
-}
 #banner {
   background-image: url(../images/banner2.jpg);
   background-repeat: no-repeat;
@@ -87,4 +87,22 @@ body {
 }
 #banner .content .button_wrapper .button {
   margin: 0 .75;
+}
+/*- - - - - - - - - - SERVICES STYLES - - - - - - - - - - */
+#services {
+  background: #f2f1f8;
+  padding: 2rem 0 6.5rem 0;
+  position: relative;
+  /* create pseudo element for lines below the service boxes */
+}
+#services .service {
+  background: #ffffff;
+  width: 31%;
+  float: left;
+  margin: -5rem 1% 0 1%;
+  /* brings boxes up to overlay the banner*/
+  padding: 3rem 2.5%;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
 }
