@@ -105,7 +105,21 @@ body {
 
 /*- - - - - - - - - - SERVICES STYLES - - - - - - - - - - */
 
-
+#services {
+  background: @grey_background;
+  padding: 2rem 0 6.5rem 0;
+  position: relative;   /* create pseudo element for lines below the service boxes */
+  .service {
+    background: @white;
+    width: 31%;
+    float: left;
+    margin: -5rem 1% 0 1%;  /* brings boxes up to overlay the banner*/
+    padding: 3rem 2.5%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25);
+  }
+}
 
 
 
