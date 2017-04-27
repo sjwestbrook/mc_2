@@ -8,6 +8,9 @@
 
 
 /* - - - - - - - - - - GLOBAL STYLES - - - - - - - - - - */
+* {
+  box-sizing: border-box;  /* ensures padding won't affect overall width of elements */ 
+}
 
 body {
   font-family: Helvetica, sans-serif;
@@ -117,6 +120,8 @@ body {
     padding: 3rem 2.5%;
     text-align: center;
     position: relative;
+    -moz-box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25);
+    -webkit-box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25);
     box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25);
   }
 }
