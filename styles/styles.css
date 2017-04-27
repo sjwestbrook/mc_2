@@ -1,35 +1,29 @@
+/* - - - - - - - - - - VARIABLES - - - - - - - - - - */
 /* - - - - - - - - - - GLOBAL STYLES - - - - - - - - - - */
-
 .wrapper {
   width: 1440px;
-  max-width: 90%;      /* below 1440 px, will default to 90% width */
+  max-width: 90%;
+  /* below 1440 px, will default to 90% width */
   margin: 0 auto;
 }
-
-
 /*- - - - - - - - - - BANNER STYLES - - - - - - - - - - */
-
 #banner {
-  background-image: url(../images/banner.jpg); 
+  background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #ffffff;
 }
-
- #banner header {
-  padding: 2rem 0; 
+#banner header {
+  padding: 2rem 0;
 }
-
- #banner #logo {
-  color: white;
+#banner #logo {
+  color: #ffffff;
 }
-
 #banner a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
-
-#banner a:hover {
-  color: white;
+#banner a a:hover {
+  color: #ffffff;
   text-decoration: none;
 }
