@@ -7,6 +7,9 @@
   margin: 0 auto;
 }
 /*- - - - - - - - - - BANNER STYLES - - - - - - - - - - */
+body {
+  font-family: Helvetica, sans-serif;
+}
 #banner {
   background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
@@ -18,6 +21,13 @@
 }
 #banner #logo {
   color: #ffffff;
+  font-weight: 700;
+  font-size: 1.35rem;
+  float: left;
+  margin: 0;
+}
+#banner #logo span {
+  font-weight: 400;
 }
 #banner a {
   color: #ffffff;
