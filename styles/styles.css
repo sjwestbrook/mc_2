@@ -6,6 +6,16 @@
   /* below 1440 px, will default to 90% width */
   margin: 0 auto;
 }
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: .5rem 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
 /*- - - - - - - - - - BANNER STYLES - - - - - - - - - - */
 body {
   font-family: Helvetica, sans-serif;
@@ -60,4 +70,8 @@ body {
   width: 500px;
   margin: 0 auto 2rem auto;
   line-height: 1.75;
+}
+#banner .content .button_wrapper {
+  text-align: center;
+  margin: 3rem 0;
 }
