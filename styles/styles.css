@@ -29,11 +29,35 @@ body {
 #banner #logo span {
   font-weight: 400;
 }
-#banner a {
-  color: #ffffff;
-  text-decoration: none;
+#banner nav {
+  float: right;
 }
-#banner a a:hover {
+#banner nav a {
   color: #ffffff;
+  font-weight: 700;
   text-decoration: none;
+  margin-left: 2rem;
+  /*       a:hover {
+        color: @white;
+        text-decoration: none;
+      } */
+}
+#banner .content {
+  padding: 2rem 0 6rem 0;
+}
+#banner .content .title,
+#banner .content .sub_title {
+  color: #ffffff;
+  text-align: center;
+}
+#banner .content .title {
+  font-size: 3.rem;
+  margin: 0;
+}
+#banner .content .sub_title {
+  font-weight: 400;
+  font-size: 1.35rem;
+  width: 500px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.75;
 }
