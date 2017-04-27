@@ -16,6 +16,12 @@
   text-decoration: none;
   text-align: center;
 }
+.button_highlight {
+  background: #7ac483;
+}
+.button_secondary {
+  background: rgba(250, 250, 250, 0.35);
+}
 /*- - - - - - - - - - BANNER STYLES - - - - - - - - - - */
 body {
   font-family: Helvetica, sans-serif;
