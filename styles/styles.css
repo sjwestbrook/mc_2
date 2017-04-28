@@ -208,6 +208,9 @@ body {
   margin-left: -300px;
   z-index: 4;
   bottom: 0;
+  -webkit-transform: scale(0.9, 0.9);
+  -moz-transform: scale(0.9, 0.9);
+  transform: scale(0.9, 0.9);
 }
 #past_work #slider li:nth-child(3) {
   bottom: -37px;
