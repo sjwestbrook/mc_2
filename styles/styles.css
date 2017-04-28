@@ -160,3 +160,16 @@ body {
   width: 59.5%;
   margin-left: -30.1%;
 }
+/* - - - - - - - - - - PAST WORK STYLES - - - - - - - - - - */
+#past_work {
+  background: #3f3d4e;
+  padding: 5rem 0 25rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+#past_work .title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin: 0 0 .75rem 0;
+}
